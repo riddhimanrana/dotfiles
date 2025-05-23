@@ -1,5 +1,4 @@
 {
-  
   "files.associations": {
     "*.py": "python",
     "*.css": "tailwindcss"
@@ -30,7 +29,6 @@
     "apc.imports"
   ],
   "security.workspace.trust.untrustedFiles": "open",
-
 
   "workbench.colorTheme": "Catppuccin Mocha",
   "workbench.iconTheme": "catppuccin-mocha",
@@ -84,7 +82,6 @@
     "strings": "on"
   },
 
-
   "vscode_custom_css.imports": [
     "file:///Users/riddhiman.rana/Desktop/Coding/customvscode/custom.css",
     "file:///Users/riddhiman.rana/Desktop/Coding/customvscode/custom.js"
@@ -136,7 +133,6 @@
   },
   "statsBar.location": "Right",
 
-
   "terminal.external.osxExec": "Warp.app",
   "terminal.integrated.shell.osx": "zsh",
   "terminal.integrated.gpuAcceleration": "on",
@@ -153,7 +149,6 @@
   },
   "terminal.integrated.enableImages": true,
   "terminal.integrated.suggest.enabled": true,
-
 
   "[python]": {
     "editor.formatOnType": true,
@@ -175,15 +170,12 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
 
-
   "git.autofetch": true,
   "git.enableSmartCommit": true,
   "git.confirmSync": false,
   "git.postCommitCommand": "push",
   "git.enableCommitSigning": true,
   "scm.inputFontFamily": "JetBrains Mono",
-
-
 
 
   "github.copilot.enable": {
@@ -211,17 +203,14 @@
   "github.copilot.chat.languageContext.fix.typescript.enabled": true,
   "github.copilot.chat.languageContext.inline.typescript.enabled": true,
 
-
   "githubPullRequests.experimental.chat": true,
   "githubPullRequests.experimental.notificationsView": true,
   "githubPullRequests.experimental.useQuickChat": true,
-
 
   "gitlens.ai.experimental.provider": "anthropic",
   "gitlens.ai.experimental.openai.model": "gpt-3.5-turbo-1106",
   "gitlens.ai.experimental.anthropic.model": "claude-2",
   "gitlens.ai.model": "openai:gpt-4o",
-
 
   "vscord.app.id": "870936028108705803",
   "vscord.app.name": "Visual Studio Code",
@@ -301,7 +290,7 @@
           "@supabase/mcp-server-supabase@latest"
         ],
         "env": {
-          "SUPABASE_ACCESS_TOKEN": "sbp_d5c62c25fe5724c47dae0538aa758978239b9086"
+          "SUPABASE_ACCESS_TOKEN": "[REDACTED]"
         }
       },
       "servers": {
@@ -317,5 +306,6 @@
   },
   "eslint.runtime": "/usr/local/bin/node",
   "eslint.execArgv": [],
-  "inlineChat.enableV2": true
+  "inlineChat.enableV2": true,
+  "workbench.secondarySideBar.showLabels": false
 }
