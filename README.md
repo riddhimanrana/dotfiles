@@ -9,7 +9,6 @@ This repo contains my configuration files (dotfiles) that I used to use for my m
 - [btop](https://github.com/aristocratos/btop)
 - [neofetch](https://github.com/dylanaraps/neofetch)
 - [nnn](https://github.com/jarun/nnn)
-- [raycast](https://www.raycast.com/)
 - [sketchybar](https://felixkratz.github.io/SketchyBar/)
 - [skhd](https://github.com/koekeishiya/skhd)
 - [spicetify](https://spicetify.app/)
