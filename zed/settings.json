@@ -1,0 +1,57 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run the `open default settings` command
+// from the command palette or from `Zed` application menu.
+{
+  "terminal": {
+    "dock": "bottom"
+  },
+  "git_panel": {
+    "dock": "right"
+  },
+  "outline_panel": {
+    "dock": "left"
+  },
+  "project_panel": {
+    "dock": "right"
+  },
+  "features": {
+    "edit_prediction_provider": "copilot"
+  },
+  "context_servers": {
+    "mcp-server-github": {
+      "settings": {
+        "github_personal_access_token": "[REDACTED]"
+      }
+    }
+  },
+  "icon_theme": "Catppuccin Mocha",
+  "auto_update_extensions": {
+    "catppuccin": true
+  },
+  "agent": {
+    "inline_assistant_model": {
+      "provider": "copilot_chat",
+      "model": "o4-mini"
+    },
+    "always_allow_tool_actions": false,
+    "dock": "left",
+    "default_profile": "write",
+    "default_model": {
+      "provider": "zed.dev",
+      "model": "claude-sonnet-4-latest"
+    },
+    "version": "2"
+  },
+  "base_keymap": "VSCode",
+  "theme": "Catppuccin Mocha",
+  "ui_font_size": 15.5,
+  "buffer_font_size": 13.5,
+  "buffer_font_family": "JetBrains Mono",
+  "confirm_quit": true,
+  "autosave": "on_focus_change"
+}
