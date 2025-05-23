@@ -18,20 +18,12 @@ This repo contains my configuration files (dotfiles) that I used to use for my m
 
 ## Installation
 
-<<<<<<< HEAD
-Currently, I don't use these dotfiles anymore so I don't plan on making a proper full installation process but you can take bits from here and use it as inspiration for creating your own setups. See [Current Setup](#-current-setup) for more information.
-=======
 Currently, I don't use these dotfiles anymore so I don't plan on making a proper full installation process but you can take bits from here and use it as inspiration for creating your own setups. See [Current Setup](#current-setup) for more information.
->>>>>>> 993b57ba41675e0083a8c8b29ddc2f8442484e20
 
 ## Preview
 ![Screenshot 2024-01-16 at 10 00 50 PM 1](https://github.com/user-attachments/assets/c93b9bda-27ac-4035-9b1d-e647073226bc)
 
-<<<<<<< HEAD
-## 🚀 Current Setup
-=======
 ## Current Setup
->>>>>>> 993b57ba41675e0083a8c8b29ddc2f8442484e20
 
 After around 3 months of using a custom setup, I switched back to regular macOS setups because I was lacking a lot of functionality and I was spending too much time trying to fix things. Here's a list of apps and tools I currently use:
 
@@ -51,8 +43,6 @@ After around 3 months of using a custom setup, I switched back to regular macOS 
 - **Stat Manager:** [Stats](https://mac-stats.com/)
 - **Mouse Scroll Movement:** [Mos](https://mos.caldis.me/)
 - **Local LLM Usage:** [Ollama](https://ollama.com/) and [LM Studio](https://lmstudio.ai/)
-<<<<<<< HEAD
-=======
 
 ## Hotkeys
 
@@ -67,5 +57,3 @@ After around 3 months of using a custom setup, I switched back to regular macOS 
 | Raycast   | `cmd` + `.`                      | Search emojis and symbols                      |
 | Raycast   | `cmd` + `option` + `c`             | Clipboard history                              |
 | Raycast   | `control` + `f`                  | Raycast notes                                  |
-
->>>>>>> 993b57ba41675e0083a8c8b29ddc2f8442484e20
