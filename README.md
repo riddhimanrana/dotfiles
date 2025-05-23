@@ -26,19 +26,22 @@ Currently, I don't use these dotfiles anymore so I don't plan on making a proper
 
 ## 🚀 Current Setup
 
-After around 3 months of using a custom setup, I switched back to regular macos setups because I was lacking a lot of functionality and I was spending too much time trying to fix things. Here's a list of apps and tools I currently use:
+After around 3 months of using a custom setup, I switched back to regular macOS setups because I was lacking a lot of functionality and I was spending too much time trying to fix things. Here's a list of apps and tools I currently use:
 
-**Spotlight Search, Clipboard Manager, and an extremely useful tool:: ** [Raycast](https://www.raycast.com/)
-**Terminal: ** [Warp](https://warp.dev/)
-**Browser: ** [Arc](https://arc.net/)
-**Code Editor: ** [VSCode](https://code.visualstudio.com/) and [Zed](https://zed.dev/) with [Catppuccin Mocha](https://catppuccin.com/) theme
-**Music: ** [Spotify](https://www.spotify.com/) and [Apple Music](https://www.music.apple.com/)
-**Notes: ** [Obsidian](https://obsidian.md/) and [Notion](https://www.notion.so/)
-**Music Player Menu Bar Controls: ** [Tuneful](https://github.com/martinfekete10/Tuneful) _Note, the latest version of this app is paid, but the last free version is still available on their git repo_
-**Window Management: ** [Rectangle](https://rectangleapp.com/)
-**AltTab Manager**: [AltTab](https://alt-tab-macos.netlify.app/)
-**Menubar Manager**: [Hidden Bar](https://github.com/dwarvesf/hidden)
-**Battery Manager: ** [BatFi](https://micropixels.software/apps/batfi) _Note, this app used to free up until v2.2.0, I have stored the last free version in this repo. Disable all automatic updates so that you don't have to face a paywall_
-**Stat Manager: ** [Stats](https://mac-stats.com/)
-**Mouse Scroll Movement: ** [Mos](https://mos.caldis.me/)
-**Local LLM Usage: ** [Ollama](https://ollama.com/) and [LM Studio](https://lmstudio.ai/)
+- **Spotlight Search, Clipboard Manager, and an extremely useful tool:** [Raycast](https://www.raycast.com/)
+- **Terminal:** [Warp](https://warp.dev/)
+- **Browser:** [Arc](https://arc.net/)
+- **Code Editor:** [VSCode](https://code.visualstudio.com/) and [Zed](https://zed.dev/) with [Catppuccin Mocha](https://catppuccin.com/) theme
+- **Music:** [Spotify](https://www.spotify.com/) and [Apple Music](https://www.music.apple.com/)
+- **Notes:** [Obsidian](https://obsidian.md/) and [Notion](https://www.notion.so/)
+- **Music Player Menu Bar Controls:** [Tuneful](https://github.com/martinfekete10/Tuneful)  
+  _Note: the latest version of this app is paid, but the last free version is still available on their Git repo._
+- **Window Management:** [Rectangle](https://rectangleapp.com/)
+- **AltTab Manager:** [AltTab](https://alt-tab-macos.netlify.app/)
+- **Menubar Manager:** [Hidden Bar](https://github.com/dwarvesf/hidden)
+- **Battery Manager:** [BatFi](https://micropixels.software/apps/batfi)  
+  _Note: this app was free up to v2.2.0. I have stored the last free version in this repo. Disable all automatic updates so that you don't have to face a paywall._
+- **Stat Manager:** [Stats](https://mac-stats.com/)
+- **Mouse Scroll Movement:** [Mos](https://mos.caldis.me/)
+- **Local LLM Usage:** [Ollama](https://ollama.com/) and [LM Studio](https://lmstudio.ai/)
+
