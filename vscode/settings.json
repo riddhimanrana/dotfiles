@@ -1,107 +1,52 @@
 {
-  "terminal.integrated.gpuAcceleration": "on",
-  "terminal.integrated.minimumContrastRatio": 1,
-  "terminal.integrated.fontFamily": "FiraCode Nerd Font",
-  "editor.tabCompletion": "on",
-  "git.autofetch": true,
-  "[javascript]": {
-    "editor.defaultFormatter": "vscode.typescript-language-features"
+  
+  "files.associations": {
+    "*.py": "python",
+    "*.css": "tailwindcss"
   },
-  "editor.cursorBlinking": "smooth",
-  "editor.inlineSuggest.enabled": true,
-  "code-runner.executorMap": {
-    "rust": "cd $dir && rustc $fileName && $dir$fileNameWithoutExt",
-    "sass": "sass --style expanded",
-    "scss": "scss --style expanded",
-    "c": "cd $dir && gcc $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
-    "groovy": "groovy",
-    "perl6": "perl6",
-    "ruby": "ruby",
-    "javascript": "node",
-    "shellscript": "bash",
-    "vbscript": "cscript //Nologo",
-    "scala": "scala",
-    "objective-c": "cd $dir && gcc -framework Cocoa $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
-    "swift": "swift",
-    "clojure": "lein exec",
-    "racket": "racket",
-    "ahk": "autohotkey",
-    "cpp": "cd $dir && g++ $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
-    "dart": "dart",
-    "d": "cd $dir && dmd $fileName && $dir$fileNameWithoutExt",
-    "coffeescript": "coffee",
-    "fortran": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
-    "nim": "nim compile --verbosity:0 --hints:off --run",
-    "haxe": "haxe --cwd $dirWithoutTrailingSlash --run $fileNameWithoutExt",
-    "perl": "perl",
-    "lisp": "sbcl --script",
-    "csharp": "scriptcs",
-    "ocaml": "ocaml",
-    "fsharp": "fsi",
-    "applescript": "osascript",
-    "FortranFreeForm": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
-    "powershell": "powershell -ExecutionPolicy ByPass -File",
-    "fortran-modern": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
-    "fortran_fixed-form": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
-    "go": "go run",
-    "bat": "cmd /c",
-    "python": "python3 -u",
-    "crystal": "crystal",
-    "java": "cd $dir && javac $fileName && java $fileNameWithoutExt",
-    "r": "Rscript",
-    "scheme": "csi -script",
-    "pascal": "cd $dir && fpc $fileName && $dir$fileNameWithoutExt",
-    "haskell": "runhaskell",
-    "v": "v run",
-    "lua": "lua",
-    "php": "php",
-    "julia": "julia",
-    "less": "cd $dir && lessc $fileName $fileNameWithoutExt.css",
-    "autoit": "autoit3",
-    "kit": "kitc --run",
-    "typescript": "ts-node"
-  },
-  "explorer.confirmDelete": false,
-  "terminal.integrated.tabs.showActiveTerminal": "always",
-  "terminal.integrated.cursorStyle": "line",
-  "liveServer.settings.donotShowInfoMsg": true,
-  "files.autoSave": "onFocusChange",
-  "helium-icon-theme.folders.color": "#92b3f5",
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 750,
+  "explorer.openEditors.sortOrder": "alphabetical",
+  "explorer.openEditors.visible": 40,
+  "explorer.compactFolders": false,
+  "explorer.openEditors.visible": 40,
+  "workbench.editor.untitled.labelFormat": "content",
+  "workbench.list.smoothScrolling": true,
+  "workbench.sideBar.location": "right",
+  "workbench.tree.enableStickyScroll": false,
+  "workbench.tree.indent": 9,
+  "workbench.navigationControl.enabled": false,
+  "workbench.settings.applyToAllProfiles": [
+    
+    "workbench.colorCustomizations"
+  ],
+  "window.dialogStyle": "custom",
+  "window.doubleClickIconToClose": true,
+  "window.customTitleBarVisibility": "windowed",
+  "notebook.lineNumbers": "on",
+  "settingsSync.ignoredSettings": [
+    "editor.fontFamily",
+    "debug.console.fontFamily",
+    "apc.imports"
+  ],
+  "security.workspace.trust.untrustedFiles": "open",
+
+
+  "workbench.colorTheme": "Catppuccin Mocha",
+  "workbench.iconTheme": "catppuccin-mocha",
+  "workbench.productIconTheme": "fluent-icons",
   "workbench.colorCustomizations": {
     "editorBracketHighlight.foreground2": "#B3E1A7",
     "editorBracketHighlight.unexpectedBracket.foreground": "#E48FA8",
     "editorBracketHighlight.foreground1": "#EFB68E",
     "editorBracketHighlight.foreground4": "#C5A7F2",
-    "editorBracketHighlight.foreground3": "#F5E3B5"
+    "editorBracketHighlight.foreground3": "#F5E3B5",
+    "tab.activeBorderTop": "#00000000"
   },
-  "workbench.fontAliasing": "antialiased",
-  "terminal.integrated.cursorBlinking": true,
-  "editor.bracketPairColorization.enabled": true,
-  "window.dialogStyle": "custom",
-  "terminal.external.osxExec": "iTerm2.app",
-  "editor.accessibilitySupport": "off",
-  "editor.linkedEditing": true,
+  "catppuccin.colorOverrides": {},
+  "catppuccin.accentColor": "blue",
+  "helium-icon-theme.folders.color": "#92b3f5",
   "helium-icon-theme.saturation": 1,
-  "workbench.productIconTheme": "fluent-icons",
-  "monkeyPatch.browserModules": [],
-  "editor.smoothScrolling": true,
-  "editor.guides.bracketPairs": true,
-  "explorer.openEditors.sortOrder": "alphabetical",
-  "editor.fontWeight": "normal",
-  "security.workspace.trust.untrustedFiles": "open",
-  "workbench.list.smoothScrolling": true,
-  "editor.inlayHints.fontFamily": "Firacode Nerd Font",
-  "editor.fontLigatures": true,
-  "explorer.openEditors.visible": 40,
-  "editor.fontFamily": "Firacode Nerd Font",
-  "workbench.iconTheme": "catppuccin-perfect-mocha",
-  "workbench.colorTheme": "Catppuccin Macchiato",
-  "settingsSync.ignoredSettings": [
-    "terminal.integrated.fontFamily",
-    "editor.fontFamily",
-    "debug.console.fontFamily"
-  ],
-  "editor.cursorSmoothCaretAnimation": "on",
   "indentRainbow.colors": [
     "#f5c2e722",
     "#cba6f722",
@@ -114,96 +59,263 @@
     "#74c7ec22",
     "#89b4fa22"
   ],
+  "editor.fontFamily": "JetBrains Mono, Monaco, 'Courier New', monospace",
+  "editor.fontSize": 13,
+  "editor.fontWeight": "normal",
+  "editor.fontLigatures": true,
+  "editor.fontVariations": false,
+  "editor.codeLensFontFamily": "JetBrains Mono",
+  "editor.inlayHints.fontFamily": "JetBrains Mono",
+  "editor.guides.bracketPairs": true,
+  "editor.minimap.enabled": false,
+  "editor.minimap.side": "left",
+  "editor.stickyScroll.enabled": false,
+  "editor.padding.top": 5,
+  "editor.scrollbar.horizontalScrollbarSize": 20,
+  "editor.accessibilitySupport": "off",
+  "editor.linkedEditing": true,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.tabCompletion": "on",
+  "editor.cursorBlinking": "smooth",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.smoothScrolling": true,
+  "editor.quickSuggestions": {
+    "comments": "on",
+    "strings": "on"
+  },
 
-  // The indent color if the number of spaces is not a multiple of "tabSize".
 
-  // The indent color when there is a mix between spaces and tabs.
-  // To be disabled this coloring set this to an empty string.
+  "vscode_custom_css.imports": [
+    "file:///Users/riddhiman.rana/Desktop/Coding/customvscode/custom.css",
+    "file:///Users/riddhiman.rana/Desktop/Coding/customvscode/custom.js"
+  ],
+  "animations.Install-Method": "Custom CSS and JS",
+  "animations.CursorAnimationOptions": {
+    "TrailLength": 12
+  },
+  "animations.Tabs": "Slide",
+  "animations.Focus-Dimming-Amount": 100,
+  "animations.Custom-CSS": false,
+  "apc.electron": {
+    "titleBarStyle": "hiddenInset",
+    "trafficLightPosition": {
+      "x": 7,
+      "y": 5
+    }
+  },
+  "apc.statusBar": {
+    "position": "editor-bottom",
+    "height": 25,
+    "fontSize": 11.5
+  },
+  "apc.menubar.compact": true,
+  "apc.font.family": "JetBrains Mono",
+  "apc.monospace.font.family": "JetBrains Mono",
+  "apc.parts.font.family": {
+    "sidebar": "Menlo",
+    "titlebar": "Menlo",
+    "activityBar": "JetBrains Mono",
+    "panel": "JetBrains Mono",
+    "tabs": "JetBrains Mono",
+    "statusbar": "JetBrains Mono",
+    "settings-body": "JetBrains Mono",
+    "extension-editor": "JetBrains Mono",
+    "monaco-menu": "JetBrains Mono"
+  },
+  "apc.header": {
+    "height": 32
+  },
+  "apc.listRow": {
+    "lists": [
+      "explorer-folders-view",
+      "quick-input-list",
+      "results"
+    ],
+    "height": 25,
+    "fontSize": 12
+  },
+  "statsBar.location": "Right",
+
+
+  "terminal.external.osxExec": "Warp.app",
+  "terminal.integrated.shell.osx": "zsh",
+  "terminal.integrated.gpuAcceleration": "on",
+  "terminal.integrated.minimumContrastRatio": 1,
+  "terminal.integrated.tabs.showActiveTerminal": "always",
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.smoothScrolling": true,
+  "terminal.integrated.fontFamily": "MesloLGS NF",
+  "terminal.integrated.tabs.enabled": true,
+  "terminal.integrated.env.osx": {
+    "CW_NEW_SESSION": "1",
+    "Q_NEW_SESSION": "1"
+  },
+  "terminal.integrated.enableImages": true,
+  "terminal.integrated.suggest.enabled": true,
+
+
+  "[python]": {
+    "editor.formatOnType": true,
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  },
   "[css]": {
-    "editor.defaultFormatter": "vscode.css-language-features"
-  },
-  "[json]": {
-    "editor.defaultFormatter": "vscode.json-language-features"
-  },
-  "[markdown]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "[scss]": {
-    "editor.defaultFormatter": "Wscats.eno"
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "workbench.editor.enablePreview": false,
-  "[python]": {
-    "editor.defaultFormatter": "ms-python.autopep8",
-    "editor.formatOnType": true
-  },
-  "editor.minimap.renderCharacters": false,
-  "catppuccin.accentColor": "blue",
-  "editor.fontSize": 14,
-  "terminal.integrated.enableMultiLinePasteWarning": false,
-  "git.enableSmartCommit": true,
-  "update.mode": "start",
-  "git.confirmSync": false,
-  "editor.tabSize": 2,
-  "editor.defaultFormatter": "vscode.css-language-features",
-  "applescript.alwaysOpenBuildTask": false,
-  "editor.unicodeHighlight.invisibleCharacters": false,
-  "editor.minimap.enabled": false,
   "[typescript]": {
-    "editor.defaultFormatter": "vscode.typescript-language-features"
-  },
-  "[xml]": {
-    "editor.defaultFormatter": "mblode.pretty-formatter"
-  },
-  "python.defaultInterpreterPath": "/opt/homebrew/bin/python3",
-  "[vue]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "[html]": {
+  "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "[ignore]": {
-    "editor.defaultFormatter": "foxundermoon.shell-format"
+
+
+  "git.autofetch": true,
+  "git.enableSmartCommit": true,
+  "git.confirmSync": false,
+  "git.postCommitCommand": "push",
+  "git.enableCommitSigning": true,
+  "scm.inputFontFamily": "JetBrains Mono",
+
+
+
+
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": true,
+    "markdown": true,
+    "scminput": false,
+    "python": true,
+    "typescriptreact": true
   },
-  "tailwind-fold.unfoldIfLineSelected": true,
-  "redhat.telemetry.enabled": false,
-  "git-graph.date.format": "Relative",
-  "git-graph.graph.colours": [
-    "#f2cdcd",
-    "#f5c2e7",
-    "#cba6f7",
-    "#f38ba8",
-    "#fab387",
-    "#f9e2af",
-    "#a6e3a1",
-    "#94e2d5",
-    "#89dceb",
-    "#74c7ec",
-    "#89b4fa",
-    "#b4befe"
+  "github.copilot.editor.enableAutoCompletions": true,
+  "github.copilot.nextEditSuggestions.enabled": true,
+  "github.copilot.chat.editor.temporalContext.enabled": true,
+  "github.copilot.chat.edits.temporalContext.enabled": true,
+  "github.copilot.chat.enableUserPreferences": true,
+  "github.copilot.chat.languageContext.typescript.enabled": true,
+  "github.copilot.chat.search.semanticTextResults": true,
+  "github.copilot.chat.edits.codesearch.enabled": true,
+  "github.copilot.chat.scopeSelection": true,
+  "github.copilot.chat.completionContext.typescript.mode": "on",
+  "github.copilot.selectedCompletionModel": "gpt-4o-copilot",
+  "github.copilot.chat.newWorkspaceCreation.enabled": true,
+  "github.copilot.chat.codesearch.enabled": true,
+  "github.copilot.advanced": {},
+  "github.copilot.chat.languageContext.fix.typescript.enabled": true,
+  "github.copilot.chat.languageContext.inline.typescript.enabled": true,
+
+
+  "githubPullRequests.experimental.chat": true,
+  "githubPullRequests.experimental.notificationsView": true,
+  "githubPullRequests.experimental.useQuickChat": true,
+
+
+  "gitlens.ai.experimental.provider": "anthropic",
+  "gitlens.ai.experimental.openai.model": "gpt-3.5-turbo-1106",
+  "gitlens.ai.experimental.anthropic.model": "claude-2",
+  "gitlens.ai.model": "openai:gpt-4o",
+
+
+  "vscord.app.id": "870936028108705803",
+  "vscord.app.name": "Visual Studio Code",
+  "vscord.status.state.text.editing": "Working on {file_name}{file_extension}",
+  "vscord.status.state.text.noWorkspaceFound": "No workspace found.",
+  "vscord.status.state.text.idle": "Idling on {file_name}",
+  "vscord.status.details.text.notInFile": "No file selected",
+  "vscord.status.details.text.idle": "In {workspace}",
+  "vscord.status.image.small.notInFile.text": "thinking...",
+  "vscord.status.image.small.viewing.text": "I'm in {app_name}",
+  "vscord.status.image.small.idle.text": "Idling",
+  "vscord.status.problems.text": "",
+  "vscord.status.problems.enabled": false,
+  "vscord.status.idle.timeout": 900,
+  "vscord.status.idle.resetElapsedTime": true,
+  "vscord.status.idle.disconnectOnIdle": true,
+  "vscord.status.buttons.button1.enabled": false,
+  "vscord.status.buttons.button1.active.label": "My github profile",
+  "vscord.status.buttons.button1.active.url": "https://github.com/rrcoder0167",
+  "vscord.status.buttons.button1.idle.label": "my website",
+  "vscord.status.buttons.button1.idle.url": "https://rrcoder0167.is-a.dev",
+  "vscord.status.buttons.button1.inactive.label": "I'm not working on anything, i just have it open",
+  "vscord.status.buttons.button1.inactive.url": "https://github.com/rrcoder0167",
+  "vscord.status.buttons.button1.git.active.label": "my current project",
+  "vscord.status.buttons.button1.git.active.enabled": false,
+  "vscord.status.buttons.button1.git.idle.label": "my current project",
+  "vscord.status.buttons.button1.git.idle.enabled": false,
+  "vscord.status.buttons.button1.git.inactive.label": "my current project",
+  "vscord.status.buttons.button1.git.inactive.enabled": false,
+  "vscord.status.buttons.button2.active.label": "my website",
+  "vscord.status.buttons.button2.active.url": "https://rrcoder0167.is-a.dev",
+  "vscord.status.buttons.button2.idle.label": "my current project",
+  "vscord.status.buttons.button2.idle.url": "https://github.com/rrcoder0167",
+  "vscord.status.buttons.button2.inactive.label": "my website",
+  "vscord.status.buttons.button2.inactive.url": "https://rrcoder0167.is-a.dev",
+  "vscord.status.buttons.button2.git.active.label": "my website",
+  "vscord.status.buttons.button2.git.active.url": "https://rrcoder0167.is-a.dev",
+  "vscord.status.buttons.button2.git.idle.label": "my website",
+  "vscord.status.buttons.button2.git.idle.url": "https://rrcoder0167.is-a.dev",
+  "vscord.status.buttons.button2.git.inactive.label": "I'm not coding rn, but here's my website",
+  "vscord.status.buttons.button2.git.inactive.url": "https://rrcoder0167.is-a.dev",
+
+  "powermode.enabled": true,
+  "powermode.shake.intensity": 1,
+
+  "liveServer.settings.donotShowInfoMsg": true,
+
+  "aws.codeWhisperer.includeSuggestionsWithCodeReferences": false,
+  "aws.codeWhisperer.importRecommendation": false,
+
+  "projectManager.git.baseFolders": [
+    "/Users/riddhiman.rana/Desktop/Coding"
   ],
-  "window.zoomLevel": 1,
-  "security.workspace.trust.banner": "never",
-  "security.workspace.trust.enabled": false,
-  "diffEditor.hideUnchangedRegions.enabled": true,
-  "window.commandCenter": false,
-  "apc.electron": {
-    // "titleBarStyle": "hidden",
-    "frame": false
+
+  "prisma.showPrismaDataPlatformNotification": false,
+
+  "roo-cline.allowedCommands": [
+    "npm test",
+    "npm install",
+    "tsc",
+    "git log",
+    "git diff",
+    "git show"
+  ],
+
+  "vsintellicode.features.python.deepLearning": "enabled",
+  "clock.dateFormat": "h:MM TT",
+  "extensions.experimental.affinity": {
+    "asvetliakov.vscode-neovim": 1
   },
-  "apc.statusBar": {
-    "position": "editor-top",
-    "height": 20,
-    "fontSize": 12
+  "mcp": {
+    "servers": {
+      "supabase": {
+        "command": "bunx",
+        "args": [
+          "-y",
+          "@supabase/mcp-server-supabase@latest"
+        ],
+        "env": {
+          "SUPABASE_ACCESS_TOKEN": "sbp_d5c62c25fe5724c47dae0538aa758978239b9086"
+        }
+      },
+      "servers": {
+        "sequential-thinking": {
+          "command": "bunx",
+          "args": [
+            "-y",
+            "@modelcontextprotocol/server-sequential-thinking"
+          ]
+        }
+      }
+    }
   },
-  "apc.imports": ["/Users/tnixc/.config/vscode/custom.css"],
-  "workbench.editor.untitled.labelFormat": "name",
-  "window.titleBarStyle": "native",
-  "apc.font.family": "SF Pro",
-  "editor.codeLensFontFamily": "FiraCode Nerd Font",
-  "debug.console.fontFamily": "FiraCode Nerd Font",
-  "scm.inputFontFamily": "FiraCode Nerd Font",
-  "apc.monospace.font.family": "FiraCode Nerd Font"
+  "eslint.runtime": "/usr/local/bin/node",
+  "eslint.execArgv": [],
+  "inlineChat.enableV2": true
 }
